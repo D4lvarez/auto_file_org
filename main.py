@@ -25,6 +25,6 @@ if __name__ == '__main__':
         print("Todos los archivos han sido organizados")
         
     except IndexError as error:
-        print("El comando de ejecución es fileOrg --path <ruta absoluta>")
+        print("El comando de ejecución es python main.py --path <ruta absoluta>")
     except AttributeError as error:
         print(error)
